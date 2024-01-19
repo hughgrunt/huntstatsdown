@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>NeutralinoJs sample app</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/local.css">
+    <link rel="stylesheet" href="./css/cards.css">
+    <link rel="stylesheet" href="./css/mmr.css">
+    <link rel="stylesheet" href="./css/gameshistory.css">
+  </head>
+  <body id='body'>
+    <image id="custom_backgrounds">
+      <input type='checkbox' id='chck_custombackgrounds' onchange='GLOBALS.SETTINGS.USECUSTOMBACKGROUNDS = this.checked;'>use custom backgrounds</input>
+      <input type='checkbox' id='chck_hidecontent' onchange='let c = document.getElementById("content");if(checked){c.style.display = "none";}else{c.style.display = ""}'>hide content</input>
+      <input id='brightness_slider' type='range' min='0' max='100' oninput='ChangeBackgroundRGBAOfElement(document.getElementById("body"), this.value)'></input>
+    </image>
+    <div id='feedback_container'>
+        <div id='feedback'></div>
+    </div>
+
+    <div id='navi'>
+    </div>
+
+      <div id='content'>
+      </div>
+
+
+
+</table>
+
+    <!-- Neutralino.js client. This file is gitignored,
+        because `neu update` typically downloads it.
+        Avoid copy-pasting it.
+        -->
+    <script src="js/neutralino.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Your app's source files -->
+    <script src="js/filesystem.js"></script>
+
+    <script src="js/tablemaker.js"></script>
+    <script src="js/gamelog.js"></script>
+    <script src="js/xml.js"></script>
+
+
+    <script src="js/mv_collection.js"></script>
+
+    <script src="js/gamedata_m.js"></script>
+    <script src="js/gamedata_v.js"></script>
+    <script src="js/gamedata_c.js"></script>
+
+    <script src="js/boot_m.js"></script>
+    <script src="js/boot_v.js"></script>
+    <script src="js/boot_c.js"></script>
+
+    <script src="js/globals.js"></script>
+
+    <script src="js/cards.js"></script>
+    <script src="js/stars.js"></script>
+
+    <script src="js/main_c.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+.mmr_next
+{
+  font-size: 14px;
+  visibility: hidden;
+}
+
+.negative
+{
+  color: red;
+}
+
+.positive
+{
+  color: green;
+}

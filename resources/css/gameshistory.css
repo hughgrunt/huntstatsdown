@@ -1,0 +1,14 @@
+#gameshistory
+{
+  border-collapse: collapse;
+}
+
+#gameshistory tr:hover:not(.selected)
+{
+  background-color: #191919;
+}
+
+#gameshistory .selected
+{
+  background-color: #3d1820;
+}

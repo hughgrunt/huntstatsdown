@@ -1,0 +1,91 @@
+body
+{
+  color: white;
+  background-color: #0E0E0E;
+
+}
+
+button
+{
+  border: solid 1px #BCBBBB;
+  background-color:#1a1a1a;
+  color: #BCBBBB;
+}
+
+button:hover
+{
+  background-color:#AFAD84;
+  color: black;
+}
+
+#content
+{
+  background: rgba(14,14,14,0.5);
+  border-radius: 25px;
+  border: 2px solid #0E0E0E;
+}
+
+#gamestats
+{
+  min-height: 600px;
+}
+table
+{
+    border-collapse: collapse;
+}
+
+.flex-container-ltr
+{
+    display: flex;
+}
+
+
+#feedback_container
+{
+  display: flex;
+  justify-content: center;
+}
+
+#feedback
+{
+  font-size: 12px;
+  margin-bottom: 20px;
+  width: max-content;
+}
+
+#gamestats_table
+{
+  border-collapse: collapse;
+  width:100%;
+  background-size:cover;
+}
+
+
+#gamestats_table .tr_timeline
+{
+  font-size: 12px;
+}
+
+
+#gamestats_table tr.hoverable:hover
+{
+  background-color: #191919;
+}
+
+#gamestats_table .tr_team
+{
+  background-color: #5B5B4D;
+  text-align:left;
+}
+
+#gamestats_table .tr_own_team
+{
+  text-align:left;
+  background-color: #45546E;
+}
+
+
+#history
+{
+  margin-top: 50px;
+}

@@ -1,0 +1,72 @@
+.card_container_holder
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.card_container
+{
+  margin-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 250px;
+}
+
+.card_frame
+{
+  background-size: cover;
+
+  width:150px;
+  height:250px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 5px;
+  border: 1px solid grey;
+  border-radius: 25px;
+
+
+}
+
+.card_frame:hover
+{
+  transform: scale(1.7);
+}
+
+
+
+
+.card_value
+{
+  border: 10px solid grey;
+  border-radius: 50px;
+  background-color:grey;
+  text-align: center;
+}
+
+.boss_states
+{
+  height: 2%;
+  width: 70%;
+  z-index: 0;
+}
+
+.killed
+{
+  background-color: red;
+  rotate: 45deg;
+}
+
+.banished
+{
+  background-color: blue;
+  rotate: 90deg;
+}
+
+.extracted
+{
+  background-color: white;
+  rotate: 135deg;
+}
